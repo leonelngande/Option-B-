@@ -1,0 +1,126 @@
+body {
+    background: url('../images/general1.jpg') no-repeat center center;
+    background-size: cover;
+    color: black;
+}
+
+.patient-list th {
+    text-transform: uppercase;
+}
+
+.patient-list td {
+    font-size: 15px;
+}
+
+.send-sms {
+    position: fixed;
+    right: 76px;
+    top: 152px;
+}
+
+.black {
+    color: black !important;
+}
+
+#banner {
+    text-align: center;
+    background: #222222;
+    height: 60px;
+    margin-top: -22px;
+}
+
+#banner h1 {
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: grey;
+}
+
+.add-top-margin {
+    margin-top: 40px;
+}
+
+.collapse {
+    margin-bottom: 10px;
+}
+
+.navbar-brand {
+    font-size: 30px;
+}
+
+.transfered-row {
+    color: grey !important;
+}
+
+.transfered-row .btn-link,
+.info .btn-link,
+.success .btn-link {
+    padding-top: 1px !important;
+    /* The button links displayed at a lower level than the <td> items, this fixes it. */
+    padding-left: 0;
+}
+
+.info .btn-link {
+    color: black;
+}
+
+#app .btn-primary {
+    color: white !important;
+}
+
+#app .btn-primary:hover {
+    background: #3071A9;
+}
+
+.intro-header {
+    margin-top: -70px;
+    padding-top: 50px;
+    /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 50px;
+    text-align: center;
+    color: #f8f8f8;
+    background: url('../images/hospitalview2.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+.intro-message {
+    position: relative;
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
+
+.intro-message>h1 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+    font-size: 5em;
+}
+
+.intro-divider {
+    width: 400px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.intro-message>h3 {
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+
+@media(max-width:767px) {
+    .intro-message {
+        padding-bottom: 15%;
+    }
+    .intro-message>h1 {
+        font-size: 3em;
+    }
+    ul.intro-social-buttons>li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+    ul.intro-social-buttons>li:last-child {
+        margin-bottom: 0;
+    }
+    .intro-divider {
+        width: 100%;
+    }
+}
